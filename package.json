@@ -7,7 +7,7 @@
     "b": "pnpm --filter @ideanick/backend",
     "f": "pnpm --filter @ideanick/frontend",
     "dev": "pnpm -r --parallel dev",
-    "types": "pnpm b types && pnpm f types",
+    "lint:types": "pnpm b types && pnpm f types",
     "prepare": "husky install"
   },
   "devDependencies": {
