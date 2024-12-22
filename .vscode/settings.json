@@ -1,0 +1,12 @@
+{
+  "eslint.workingDirectories": ["./client", "./backend"],
+  "eslint.useFlatConfig": true,
+  "css.validate": true,
+  "scss.validate": true,
+  "stylelint.enable": true,
+  "stylelint.validate": ["css", "scss"],
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+}
+}

@@ -1,0 +1,26 @@
+{
+  "name": "ideanick",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "b": "pnpm --filter @ideanick/backend",
+    "f": "pnpm --filter @ideanick/frontend",
+    "dev": "pnpm -r --parallel dev",
+    "types": "pnpm b types && pnpm f types",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.0",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.12.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.11",
+    "prettier": "^3.4.2",
+    "typescript-eslint": "^8.15.0"
+  }
+}
